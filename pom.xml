@@ -112,6 +112,10 @@
                 <configuration>
                     <argLine>
                         -javaagent:"${settings.localRepository}\org\aspectj\aspectjweaver\${aspectj.version}\aspectjweaver-${aspectj.version}.jar"
+                        -javaagent:"/root/.m2/repository\org\aspectj\aspectjweaver\${aspectj.version}\aspectjweaver-${aspectj.version}.jar'
+                        '-jar' '/playwrightMaven/target/surefire/surefirebooter-20231227195515465_3.jar'
+                        '/playwrightMaven/target/surefire' '2023-12-27T19-55-15_338-jvmRun1'
+                        'surefire-20231227195515465_1tmp' 'surefire_0-20231227195515465_2tmp'
                     </argLine>
                 </configuration>
                 <dependencies>
